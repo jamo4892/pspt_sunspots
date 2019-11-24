@@ -1,15 +1,15 @@
-PSPT Sunspots
-CU Boulder CSCI 7000 Semester Project
-Jamie Mothersbaugh
+PSPT Sunspots <br>
+CU Boulder CSCI 7000 Semester Project <br>
+Jamie Mothersbaugh <br>
 
-Project Overview
-Will include parts of the project pitch in this section.
+Project Overview <br>
+Will include parts of the project pitch in this section <br>
 
-Data Acquisition & Organization
-Will include:
-Location of data on PSPT website
-Downloading instructions
-Commands to sort data by timestamp
-Example of pspt_data.py to display time distribution
-Commands to identify & select one image per day
-Final data set
+Data Acquisition & Organization <br>
+Will include: <br>
+Location of data on PSPT website <br>
+Downloading instructions <br>
+Commands to sort data by timestamp <br>
+Example of pspt_data.py to display time distribution <br>
+Commands to identify & select one image per day <br>
+Final data set <br>
