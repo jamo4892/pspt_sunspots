@@ -32,8 +32,9 @@ plt.xticks(x, pspt_blue_image_times, fontsize = 30)
 plt.yticks(fontsize = 30)
 plt.xlabel('UT Hour Range', fontsize = 35)
 plt.ylabel('# of Images', fontsize = 35)
-plt.title('PSPT Blue Image Temporal Distribution', fontsize = 40)
+plt.title('PSPT Blue Image Temporal Distribution\n ', fontsize = 40)
 plt.margins(0.01, 0.01)
+plt.subplots_adjust(hspace = 0.25)
 # Plot blue image distribution.
 
 x = np.arange(0, len(pspt_red_image_times))
@@ -43,8 +44,9 @@ plt.xticks(x, pspt_red_image_times, fontsize = 30)
 plt.yticks(fontsize = 30)
 plt.xlabel('UT Hour Range', fontsize = 35)
 plt.ylabel('# of Images', fontsize = 35)
-plt.title('PSPT Red Image Temporal Distribution', fontsize = 40)
+plt.title('PSPT Red Image Temporal Distribution\n ', fontsize = 40)
 plt.margins(0.01, 0.01)
+plt.subplots_adjust(hspace = 0.25)
 # Plot red image distribution.
 
 x = np.arange(0, len(pspt_calcium_image_times))
@@ -54,8 +56,9 @@ plt.xticks(x, pspt_calcium_image_times, fontsize = 30)
 plt.yticks(fontsize = 30)
 plt.xlabel('UT Hour Range', fontsize = 35)
 plt.ylabel('# of Images', fontsize = 35)
-plt.title('PSPT Calcium Image Temporal Distribution', fontsize = 40)
+plt.title('PSPT Calcium Image Temporal Distribution\n ', fontsize = 40)
 plt.margins(0.01, 0.01)
+plt.subplots_adjust(hspace = 0.25)
 # Plot calcium image distribution.
 
 plt.savefig('/Users/jamo4892/Desktop/CSCI_7000/Project/pspt_sunspots/pspt_data_distribution.png', bbox_inches = 'tight')
