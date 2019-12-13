@@ -105,4 +105,4 @@ plt.axvline(solar_disk_min_x, color = 'r')
 plt.axvline(solar_disk_max_x, color = 'r')
 # Grayscale image plot (same coloring as the jpg).
 
-plt.savefig('./pspt_sunspots/red_image.png', bbox_inches = 'tight')
+plt.savefig('./red_image.png', bbox_inches = 'tight')
