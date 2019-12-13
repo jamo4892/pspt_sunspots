@@ -10,10 +10,6 @@ assert_no_stderr
 assert_exit_code 0
 # Run script to make data distribution plot.
 
-# The tests below may fail if Python can't find the astropy library. I thought this was a standard 
-# library but this may not be the case. If the astropy library isn't found, none of the tests below
-# will run to completion and no plots will be made.
-
 run red_image_test python plot_pspt_red_image.py
 assert_no_stderr
 assert_exit_code 0
@@ -33,3 +29,4 @@ run sunspot_test python plot_pspt_sunspots.py
 assert_no_stderr
 assert_exit_code 0
 # Run scripts to make red, blue & calcium sunspot plots.
+# This script is not working. My code is not running find_pspt_fits_images_sunspots.py the correct way.
