@@ -10,6 +10,7 @@ before_install:
     - conda activate test
     - conda install --yes python=3.6
     - conda install --yes astropy
+    - conda install --yes matplotlib
 
 script:
     - bash pspt_sunspots_test.sh
