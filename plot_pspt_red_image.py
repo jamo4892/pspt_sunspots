@@ -70,6 +70,10 @@ xsize = np.arange(image['primary'].header['NAXIS1'])
 ysize = np.arange(image['primary'].header['NAXIS2'])
 # X and Y image dimensions.
 
+sun_radius_x = int(round(image['primary'].header['XRADIUS']))
+sun_radius_y = int(round(image['primary'].header['YRADIUS']))
+# X and Y solar disk radii are defined in the image header.
+
 solar_disk_min_x = xcenter - sun_radius_x
 solar_disk_max_x = xcenter + sun_radius_x
 solar_disk_min_y = ycenter - sun_radius_y
