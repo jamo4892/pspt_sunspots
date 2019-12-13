@@ -61,4 +61,4 @@ plt.margins(0.01, 0.01)
 plt.subplots_adjust(hspace = 0.25)
 # Plot calcium image distribution.
 
-plt.savefig('/Users/jamo4892/Desktop/CSCI_7000/Project/pspt_sunspots/pspt_data_distribution.png', bbox_inches = 'tight')
+plt.savefig('./pspt_data_distribution.png', bbox_inches = 'tight')
