@@ -4,6 +4,12 @@ After running the script to find the sunspots as a function of time, it plots th
 filter. A screenshot of the plot is saved to the working directory.
 """
 
+import find_pspt_fits_images_sunspots
+import numpy as np
+import matplotlib.pyplot as plt
+import os
+# Import modules.
+
 red_sunspots = []
 red_year = []
 red_month = []
